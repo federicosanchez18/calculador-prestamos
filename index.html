@@ -2,6 +2,7 @@
 <head>
     <title>Calculador de Prestamos</title>
     <meta charset="UTF-8">
+    <LINK REL=StyleSheet HREF="app.css" TYPE="text/css" MEDIA=screen>
     
 
 </head>    
@@ -9,10 +10,9 @@
         <div>
             <div id="Titulos">
                 <h1 id="Titulo">Calcula tu Prestamo</h1>
-                <h3 id= "TituloSecundario"> Sindicato de Guincheros</h3>
             </div>
-            <div id=>
-                <h4>Importe en pesos : <select id="monto"> 
+            <div id="montoPrincipal">
+                <h2 id= "importePesos">Importe en pesos: <select id="monto"> 
                     <option value="3000">3000</option>
                     <option value="4000">4000</option>
                     <option value="5000">5000</option>
@@ -41,10 +41,10 @@
                     <option value = "28000">28000</option>
                     <option value = "29000">29000</option>
                     <option value = "30000">30000</option>
-                </select> </h4>
+                </select> </h2>
             </div>
             
-            <h4>Cantidad de Cuotas : <select id="cuotas">
+            <h2 id = "cantCuotas">Cantidad de Cuotas: <select id="cuotas">
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
@@ -53,14 +53,12 @@
                 <option value="8">8</option>
                 <option value="10">10</option>
                 <option value="12">12</option>
-            </select> </h4>
-            <label translate=" Cantidad de Cuotas">Cantidad</label>
-
-
-            <button id="calcular" name="Calcular" onclick="calcular()">Calcular</button>
-            <label title="Monto Mensual">Monto mensual</label>
-            <label>Monto total</label>
+            </select> </h2>
+           
+ <button id="calcular"  name="Calcular" onclick="calcular()">Calcular</button>
+            <h4 id="valorPorCuota">Valor por Cuota: <label id="vcuotas"> <input id="valorCuotas" type="text"></label></h4>
+            <h4 id= "valorTotal">Valor Monto Total: <label> <input id="montoTotal" type="text"></label></h4>
         </div>
-            <script src="Calculador.js"></script>
+            
     </body>
 </html>

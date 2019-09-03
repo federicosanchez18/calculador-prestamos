@@ -1,6 +1,6 @@
 function init(){
 
-    var monto ;
+    var monto= document.getElementById() ;
     var cuotas;
     var cuotaMensual;
     var montoTotal;
@@ -9,9 +9,7 @@ function init(){
     //eventos
 
     calculo.onclick = function(){
-        monto = document.getElementById("monto");
-        cuotas = document.getElementById("cuotas");
-        calcular(monto,cuota)
+        calcular(monto,cuotas)
 
     }
 
@@ -22,7 +20,8 @@ function init(){
 
         if(monto = 3000){
             if(cuotas = 2 ){
-                //cuota 1599,90
+                document.getElementById("vcuotas").value ="1599,90"
+                console.log("paso");
                 //total 3199,80
 
             }
