@@ -1,28 +1,32 @@
 function init(){
 
-    var monto= document.getElementById() ;
-    var cuotas;
-    var cuotaMensual;
-    var montoTotal;
-    var calculo = document.getElementById("calcular");
+   var calculo = document.getElementById("calcular");
+  
 
     //eventos
 
     calculo.onclick = function(){
+        var monto = document.getElementById("monto")
+        var cuotas = document.getElementById("cuotas");
+        console.log(monto.value);
+        console.log(cuotas.value);
         calcular(monto,cuotas)
+        //console.log(cuotas.value());
+        
 
     }
 
 
     //funciones 
     
-    function calcular(monto , cuotas){
+    function calcular(monto,cuotas){
+        var total ;
 
         if(monto = 3000){
             if(cuotas = 2 ){
-                document.getElementById("vcuotas").value ="1599,90"
+                document.getElementById("vcuotas").innerHTML = "1599,90"
                 console.log("paso");
-                //total 3199,80
+                total = 3199,80
 
             }
             if(cuotas = 3 ){
@@ -53,6 +57,6 @@ function init(){
             
         
 
+        }
     }
-}
 }
