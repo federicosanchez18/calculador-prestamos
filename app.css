@@ -1,12 +1,10 @@
 #Titulo {
     color: 2A930E;
-    
 }
 
 
 #importePesos{
     color: 2A930E;
-
 }
 #cantCuotas{
     color: 2A930E;
@@ -27,7 +25,6 @@
     border-radius: 6px;
     border: 2px solid  grey;
 }
-
 select{
      background: transparent;
      font-size: 14px;
