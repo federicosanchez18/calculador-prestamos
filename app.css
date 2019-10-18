@@ -1,19 +1,19 @@
 #Titulo {
-    color: 2A930E;
+    color: #2A930E;
 }
 
 
 #importePesos{
-    color: 2A930E;
+    color: #2A930E;
 }
 #cantCuotas{
-    color: 2A930E;
+    color: #2A930E;
 }
 #valorPorCuota{
-    color: 2A930E;
+    color: #2A930E;
 }
 #valorTotal {
-    color: 2A930E;
+    color: #2A930E;
 }
 #calcular{
     text-decoration: none;
@@ -25,6 +25,17 @@
     border-radius: 6px;
     border: 2px solid  grey;
 }
+#restart{
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2A930E;
+    border-radius: 6px;
+    border: 2px solid  grey
+}
 select{
      background: transparent;
      font-size: 14px;
@@ -32,4 +43,8 @@ select{
      padding: 5px;
      width: 75px;
 }
- 
+#total {
+    padding: 8px;
+    width: 300px;
+    border: 3px solid black;
+}

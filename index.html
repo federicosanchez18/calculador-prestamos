@@ -7,7 +7,7 @@
 
 </head>    
     <body onload="init()">
-        <div>
+        <div id="total">
             <div id="Titulos">
                 <h1 id="Titulo">Calcula tu Prestamo</h1>
             </div>
@@ -55,9 +55,10 @@
                 <option value="12">12</option>
             </select> </h2>
            
- <button id="calcular"  name="Calcular" onclick="calcular()">Calcular</button>
-            <h4 id="valorPorCuota">Valor por Cuota: <label id="vcuotas"> <input id="valorCuotas" type="text"></label></h4>
-            <h4 id= "valorTotal">Valor Monto Total: <label> <input id="montoTotal" type="text"></label></h4>
+            <button id="calcular"  name="Calcular" onclick="calcular()">Calcular</button>
+            <button id="restart"  name="Restablecer" onclick="restablecer()">Restablecer</button>
+            <h4 id="valorPorCuota">Valor por Cuota: $ <label id="vcuotas"></label></h4>
+            <h4 id= "valorTotal">Valor Monto Total: $ <label id="montoTotal"> </label></h4>
         </div>
     <script src="Calculador.js"></script>        
     </body>
